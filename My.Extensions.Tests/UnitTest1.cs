@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using My.Extensions.Samples.Demo1;
 
 namespace My.Extensions.Tests
 {
@@ -8,10 +7,8 @@ namespace My.Extensions.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void ToLegacyFormat_C20()
+        public void TestMethod1()
         {
-            var dateTime = new DateTime(1920, 12, 31);
-            Assert.AreEqual("0201231", dateTime.ToLegacyFormat());
         }
     }
 }
