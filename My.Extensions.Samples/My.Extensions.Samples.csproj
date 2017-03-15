@@ -43,8 +43,12 @@
     <Compile Include="Demo1\LegacyExtensions.cs" />
     <Compile Include="Demo2\DateTimeExtensions.cs" />
     <Compile Include="Demo3\Impl\ApiReferenceDataSource.cs" />
+    <Compile Include="Demo3\Impl\SqlReferenceDataSource.cs" />
+    <Compile Include="Demo3\Impl\XmlReferenceDataSource.cs" />
     <Compile Include="Demo3\IReferenceDataSource.cs" />
+    <Compile Include="Demo3\IReferenceDataSourceExtensions.cs" />
     <Compile Include="Demo3\ReferenceDataItem.cs" />
+    <Compile Include="Demo4\IReferenceDataSourceCollectionExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
