@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Demo1\LegacyExtensions.cs" />
+    <Compile Include="Demo2\DateTimeExtensions.cs" />
+    <Compile Include="Demo3\Impl\ApiReferenceDataSource.cs" />
+    <Compile Include="Demo3\IReferenceDataSource.cs" />
+    <Compile Include="Demo3\ReferenceDataItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

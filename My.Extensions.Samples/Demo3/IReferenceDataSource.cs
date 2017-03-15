@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace My.Extensions.Samples
+namespace My.Extensions.Samples.Demo3
 {
-    public class Class1
+    public interface IReferenceDataSource
     {
+        IEnumerable<ReferenceDataItem> GetItems();
     }
 }
