@@ -15,6 +15,9 @@ namespace My.Extensions.Advanced.Tests.Demo2
             Assert.AreEqual("a", obj1.GetString1());
             Assert.AreEqual("A", obj1.GetString1Upper());
             Assert.AreEqual("", obj1.GetString3Upper());
+
+            Assert.AreEqual("abc", obj1.GetString0());
+            Assert.AreEqual("ABC", obj1.GetString0Upper());
         }
 
         [TestMethod]
@@ -24,6 +27,9 @@ namespace My.Extensions.Advanced.Tests.Demo2
             Assert.AreEqual("b", obj2.GetString2());
             Assert.AreEqual("B", obj2.GetString2Upper());
             Assert.AreEqual("", obj2.GetString3Upper());
+
+            Assert.AreEqual("xyz", obj2.GetString0());
+            Assert.AreEqual("XYZ", obj2.GetString0Upper());
         }
 
         [TestMethod]

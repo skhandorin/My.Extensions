@@ -9,6 +9,11 @@ namespace My.Extensions.Advanced.Demo2
 {
     internal static class InternalClassExtensions
     {
+        public static string GetString0Upper(this Class0 obj)
+        {
+            return obj.GetString0().ToUpper();
+        }
+
         public static string GetString1Upper(this Class1 obj)
         {
             return obj.GetString1().ToUpper();
