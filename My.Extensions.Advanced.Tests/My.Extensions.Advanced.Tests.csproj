@@ -55,9 +55,15 @@
     <Compile Include="Demo1\InstrumentationTests.cs" />
     <Compile Include="Demo2\InternalClassTests.cs" />
     <Compile Include="Demo3\DateTimeExtensionsTests.cs" />
+    <Compile Include="Demo4\StringExtensionsTests.cs" />
+    <Compile Include="Demo5\DecimalExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\My.Extensions.Advanced.Portable\My.Extensions.Advanced.Portable.csproj">
+      <Project>{d1d3cea8-36fc-4696-8147-b19f90ebabde}</Project>
+      <Name>My.Extensions.Advanced.Portable</Name>
+    </ProjectReference>
     <ProjectReference Include="..\My.Extensions.Advanced\My.Extensions.Advanced.csproj">
       <Project>{FC74BD32-49D2-43CF-B9DA-5EF18687A1E2}</Project>
       <Name>My.Extensions.Advanced</Name>
